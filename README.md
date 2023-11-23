@@ -1,2 +1,2 @@
-# KWUMultimodality-Analysis-Model
-Deep learning model for multimodality analysis
+# KWU-Analysis-Model
+Deep learning model for multiple signal processing
