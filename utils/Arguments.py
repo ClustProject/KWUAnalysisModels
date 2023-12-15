@@ -1,6 +1,6 @@
 """ KWUAnalysisModels Utility Package. """
 import easydict
-class args:
+class __args:
     def __init__(self):
         self._args = self._args
 
@@ -20,7 +20,7 @@ class args:
         return
 
 
-class seed_args(args):
+class seed_args(__args):
     def __init__(self):
         super().__init__()
         self._args = None
@@ -87,7 +87,7 @@ class seed_args(args):
             'val_split': 0.2
         })
 
-class seedIV_args(args):
+class seedIV_args(__args):
     def __init__(self):
         super().__init__()
         self._args = None
@@ -154,7 +154,7 @@ class seedIV_args(args):
             'val_split': 0.2
         })
 
-class deap_args(args):
+class deap_args(__args):
     def __init__(self):
         super().__init__()
         self._args = None
@@ -224,7 +224,7 @@ class deap_args(args):
             'val_split': 0.2
         })
 
-class mdeap_args(args):
+class mdeap_args(__args):
     def __init__(self):
         super().__init__()
         self._args = None
