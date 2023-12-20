@@ -1,4 +1,4 @@
-from utils.Reshape import flatten
+from Utils.Reshape import flatten
 import numpy as np
 import random
 
