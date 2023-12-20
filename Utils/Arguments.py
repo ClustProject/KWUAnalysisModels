@@ -34,7 +34,7 @@ class seed_args(__args):
 
             # args for path
             'os_path': '/home/neuroai/users/dhkim/eer/SSLGCN',
-            'seed_data_dir_path': 'dataset/seed/SEED_EEG/ExtractedFeatures/data/',
+            'seed_data_dir_path': 'dataset/seed/SEED_EEG/ExtractedFeatures/DataLoader/',
             'feature_name1': 'de_LDS',
             'feature_name2': 'psd_LDS',
             'seed_label_dir_path': 'dataset/seed/SEED_EEG/ExtractedFeatures/label/',

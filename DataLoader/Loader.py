@@ -79,7 +79,7 @@ def load_seedIV_data(data_dir_path: str, feature_name: str, trial: int, islabel=
             else:
                 subject_sample_counts = np.concatenate((subject_sample_counts, session_sample_counts), axis=1)
 
-            print("get data in session {} ... done".format(ses_idx + 1))
+            print("get DataLoader in session {} ... done".format(ses_idx + 1))
         return subject_feature_list, subject_label_list, subject_sample_counts
 
     else:
@@ -113,5 +113,5 @@ def load_seedIV_data(data_dir_path: str, feature_name: str, trial: int, islabel=
             else:
                 subject_feature_list = np.concatenate((subject_feature_list, session_feature_list), axis=1)
 
-            print("get data in session {} ... done".format(ses_idx + 1))
+            print("get DataLoader in session {} ... done".format(ses_idx + 1))
         return subject_feature_list
