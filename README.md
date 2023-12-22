@@ -5,7 +5,7 @@ Deep learning model for physiological time-series analysis
 ### Analysis-Model (Discriminative Graph Transformer Model)
 #### Produced by NeuroAI Lab. @Kwangwoon Univ.
 
-![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/baff03da-0fca-4b2e-a8ea-ab6382a8ff6d){: .align-center}
+![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/baff03da-0fca-4b2e-a8ea-ab6382a8ff6d)
 *Discriminative Graph Transformer Model (DTGM)*
 
 *	EEG 감정인식 모델은 Graph Encoder Module (GEM), 그리고 Graph Transformer Module (GTM)으로 구성된다.
@@ -13,16 +13,16 @@ Deep learning model for physiological time-series analysis
 * 이 문제를 보완하고자, 그래프 트랜스포머를 도입하였으며, 기존 어텐션 스코어 (cosine 유사성) 계산 시 엣지 정보 (유클리드 거리 기반 유사성)를 추가로 활용함으로써 그래프 전체적 이웃 관계를 고려한다.
 *	Classifier로는 하나의 Fully-connected (FC) layer를 활용한다.
 
-![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/fddc4631-3b5f-4ffa-bb65-9630a1a1c787){: .align-center}
+![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/fddc4631-3b5f-4ffa-bb65-9630a1a1c787)
 *Graph Convolution*
-![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/e72caeb8-e972-41ee-81f8-94153514f012){: .align-center}
+![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/e72caeb8-e972-41ee-81f8-94153514f012)
 *Graph Multi-head Attention*
 
 
 ## Used signals
 
 ### Electroencephalogram (EEG)
-![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/2a3ac3d9-cee3-426d-9af3-1492e9b0ea59){: .align-center}
+![image](https://github.com/ClustProject/KWUAnalysisModels/assets/74770095/2a3ac3d9-cee3-426d-9af3-1492e9b0ea59)
 
 *	뇌전도를 기록하기 위해서 전극을 두피에 부착하며, 전극의 수에 따라 뇌전도 신호의 채널 수가 정해진다.
 *	뇌전도 각 채널로부터 특정 뇌 지역의 활동을 알 수 있으며, 해당 뇌 지역이 활성화되는 경우 스파이크와 함께 복잡한 파형이 기록된다.
